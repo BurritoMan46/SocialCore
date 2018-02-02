@@ -7,7 +7,7 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\command\CommandSender;
-use pocketmine\plugin\PluginBase
+use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
 class SocialCore extends PluginBase{
