@@ -4,3 +4,4 @@ SocialCore Plugin For Pocketmine!
 - [ ] Gkits (Like Kits But Gkits xD)
 
 And Many More..
+Not Finished Yet , DO NOT COPY ANYTHING!
