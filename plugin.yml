@@ -2,4 +2,9 @@ name: SocialCore
 main: BurritoMan46/SocialCore/main
 version: 1.0.0
 api: 3.0.0-ALPHA10
-description: SocialCore Commands
+command:
+  gkit:
+       description: gkit
+       usage: /gkit
+permissions:
+        gkit.command
