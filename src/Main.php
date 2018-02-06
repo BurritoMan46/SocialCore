@@ -2,24 +2,29 @@
 
 namespace BurritoMan46/SocialCore;
 
-use pocketmine\Player;
-use pocketmine\Server;
-use pocketmine\command\Command;
-use pocketmine\command\ConsoleCommandSender;
-use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\TextFormat;
 
-class SocialCore extends PluginBase{
-  
-        public function onEnable(){
-                $this->getLogger()->info("onEnable() has been called!");
-        }
-         
-        public function onDisable(){
-                $this->getLogger()->info("onDisable() has been called!");
-          
-          public function onCommand(CommandSender $sender, Command $command, $label, array $args){
-	if(strtolower($command->getName()) === "gkit"){
-		// Execute logic
-		return true;
+use pocketmine\event\player\PlayerJoinEvent;
+
+use pocketmine\event\player\PlayerQuitEvent;
+
+use pocketmine\Player;
+
+use pocketmine\Server;
+
+use pocketmine\event\Listener;
+
+use pocketmine\utils\TextFormat as C;;
+
+class SocialCore extends PluginBase implements Listener{
+	
+            public function onLoad(){
+                    $this->getLogger()->info("SocialCore Loading!");
+          }
+          public function onEnable(){
+                    $this->getLogger()->info("SocialCore Enabled!");
+          }
+          public function onDisable(){
+                    $this->getLogger()->info("SocialCore Disabled!");
+          }
+}
